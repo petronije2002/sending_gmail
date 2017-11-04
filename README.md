@@ -22,14 +22,17 @@ pip install sending_gmail
 
 ( Please check echo $PYTHONPATH, if it is not setup correctly, especially with Anaconda, python will not find 
 the package. You can simply add: 
+For example:
 
-export PYTHONPATH=/Users/<your username>/anaconda3/bin:$PYTHONPATH
+export PYTHONPATH=/Users/<your username>/anaconda3/lib/python3.6/site-packages:$PYTHONPATH
+ 
+or wherever you site-packages are.
 
 in your ~/.bashrc file
 
 You import this send_gmail function in your script:
 
-import send_gmail from send_gmail
+import sending_gmail from send_gmail
 
 After that you can use your function as:
 
