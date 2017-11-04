@@ -1,13 +1,13 @@
 # sending_gmail
 
 sending_gmail is a simple way for sending text e-mails through Gmail API from your python script. Simply import send_gmail function, and use it to 
-send emails on behave of you gmail account.
+send emails on behave of your gmail account.
 
 
-First register your app via gmail API console.
+First register your app via Google API console.
 You can follow these instructions: https://www.epilis.gr/en/blog/2016/07/18/sending-e-mails-using-gmail-api/
 
-send_gmail uses the scope : 'https://www.googleapis.com/auth/gmail.send' , it meanse you will be asked to authorize your app, 
+send_gmail uses the scope : 'https://www.googleapis.com/auth/gmail.send' , it means you will be asked to authorize your app, 
 for sending messages only. 
 
 Make .client_secret directory in ~ ($HOME) and place there client_secret.json from google api console. 
