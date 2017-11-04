@@ -24,7 +24,7 @@ pip install sending_gmail
 the package. You can simply add: 
 For example:
 
-export PYTHONPATH=/Users/<your username>/anaconda3/lib/python3.6/site-packages:$PYTHONPATH
+export PYTHONPATH=/Users/username/anaconda3/lib/python3.6/site-packages:$PYTHONPATH
  
 or wherever you site-packages are.
 
