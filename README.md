@@ -32,7 +32,7 @@ in your ~/.bashrc file
 
 You import this send_gmail function in your script:
 
-import sending_gmail from send_gmail
+from sending_gmail.send_gmail import send_gmail
 
 After that you can use your function as:
 
