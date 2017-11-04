@@ -7,7 +7,7 @@ send emails on behave of you gmail account.
 First register your app via gmail API console.
 You can follow these instructions: https://www.epilis.gr/en/blog/2016/07/18/sending-e-mails-using-gmail-api/
 
-send_gmail uses the scope : 'https://console.developers.google.com', it meanse you will be asked to authorize your app, 
+send_gmail uses the scope : 'https://www.googleapis.com/auth/gmail.send' , it meanse you will be asked to authorize your app, 
 for sending messages only. 
 
 Make .client_secret directory in ~ ($HOME) and place there client_secret.json from google api console. 
